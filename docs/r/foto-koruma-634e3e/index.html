@@ -1,0 +1,60 @@
+<!doctype html><html lang="tr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Foto Koruma · Sitivle</title><style>
+:root{--g:#00e676;--bg:#06060b;--card:#12121c;--muted:#9a9aac}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;color:#f2f2f7;
+min-height:100vh;display:flex;justify-content:center;padding:40px 18px 60px;overflow-x:hidden;
+background:linear-gradient(-45deg,#06060b,#0c1b14,#06060b,#0a1410);background-size:400% 400%;
+animation:bg 18s ease infinite}
+@keyframes bg{0%{background-position:0 50%}50%{background-position:100% 50%}100%{background-position:0 50%}}
+@keyframes up{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+@keyframes glow{0%,100%{box-shadow:0 0 24px rgba(0,230,118,.30)}50%{box-shadow:0 0 42px rgba(0,230,118,.55)}}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.035)}}
+.wrap{width:100%;max-width:440px;text-align:center}
+.wrap>*{animation:up .6s both}
+.wrap>*:nth-child(2){animation-delay:.05s}.wrap>*:nth-child(3){animation-delay:.1s}
+.wrap>*:nth-child(4){animation-delay:.15s}.wrap>*:nth-child(5){animation-delay:.2s}
+.wrap>*:nth-child(6){animation-delay:.25s}.wrap>*:nth-child(7){animation-delay:.3s}
+.pp{width:116px;height:116px;border-radius:50%;object-fit:cover;border:3px solid var(--g);
+margin:0 auto 16px;display:block;animation:glow 3.5s ease-in-out infinite}
+.handle{display:inline-block;font-weight:900;font-size:30px;letter-spacing:.5px;margin:4px 0 2px;
+background:linear-gradient(90deg,#00e676,#69f0ae,#00e676);background-size:200% auto;
+-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+animation:shine 4s linear infinite}
+@keyframes shine{to{background-position:200% center}}
+h1{font-size:22px;margin:2px 0 6px;line-height:1.3;font-weight:700;color:#e9e9f2}
+.sub{color:var(--muted);font-size:15px;margin-bottom:24px;line-height:1.55}
+.btn{display:flex;align-items:center;justify-content:center;gap:11px;width:100%;
+padding:15px;border-radius:16px;margin-bottom:12px;font-weight:700;font-size:16px;
+text-decoration:none;color:#fff;border:1px solid #22222f;background:var(--card);
+transition:transform .15s,box-shadow .15s,border-color .15s;-webkit-tap-highlight-color:transparent}
+.btn:hover,.btn:active{transform:translateY(-2px) scale(1.01)}
+.btn .lg{width:22px;height:22px;flex:none}
+.btn.ig{background:linear-gradient(90deg,#833ab4,#e1306c,#fcb045);border:0}
+.btn.tt{background:#0e0e12;border:1px solid #2a2a35}
+.btn.yt{background:#ff0033;border:0}
+.btn.yt:hover,.btn.ig:hover,.btn.tt:hover{filter:brightness(1.08)}
+.btn.pdf{background:linear-gradient(90deg,#00e676,#00c853);color:#04120a;animation:pulse 2.2s ease-in-out infinite}
+.tag{display:inline-block;background:#0f2318;color:var(--g);border:1px solid #1c3a2a;
+padding:6px 14px;border-radius:20px;font-size:12.5px;margin-bottom:14px;font-weight:600}
+.gate{background:#0d0d16;border:1px solid #24243a;border-radius:18px;padding:18px;margin-bottom:14px}
+.gate p{color:#ffd54a;font-weight:600;font-size:14px;margin-bottom:12px}
+.locked{color:var(--muted);font-size:13px;margin:6px 0 14px}
+.foot{color:var(--muted);font-size:12px;margin-top:28px}
+.foot a{color:var(--g);text-decoration:none}
+@media(max-width:420px){h1{font-size:23px}.btn{font-size:15px;padding:14px}}
+</style></head><body><div class="wrap">
+<img class="pp" src="/assets/profil.jpg" alt="Sitivle">
+<div class="handle">@sitivle</div>
+<div class="tag">🎁 Sana özel rehber</div>
+<h1>Foto Koruma</h1>
+<p class="sub">Videoda anlattığım her şeyin detaylı, adım adım rehberi. Aç, incele, kullan.</p>
+<a class="btn pdf" href="/r/foto-koruma-634e3e/rehber.pdf" target="_blank" rel="noopener">📄 Rehberi Aç / İndir</a>
+<p class="sub" style="margin:24px 0 12px">Beğendiysen takip et, yenilerini kaçırma 👇</p>
+<a class="btn ig" href="https://instagram.com/sitivle" target="_blank" rel="noopener"><svg class="lg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41-.56-.22-.96-.48-1.38-.9-.42-.42-.68-.82-.9-1.38-.16-.42-.36-1.06-.41-2.23C2.16 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16M12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63c-.79.3-1.46.72-2.12 1.38C1.35 2.67.94 3.34.63 4.14.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.3.8.72 1.47 1.38 2.13.66.66 1.33 1.07 2.12 1.38.76.3 1.64.5 2.91.56C8.33 24 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56.8-.3 1.47-.72 2.13-1.38.66-.66 1.07-1.33 1.38-2.13.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91-.3-.8-.72-1.46-1.38-2.12-.66-.66-1.33-1.08-2.13-1.38-.76-.3-1.64-.5-2.91-.56C15.67.01 15.26 0 12 0m0 5.84A6.16 6.16 0 1018.16 12 6.16 6.16 0 0012 5.84M12 16a4 4 0 114-4 4 4 0 01-4 4m6.4-10.85a1.44 1.44 0 101.44 1.44 1.44 1.44 0 00-1.44-1.44"/></svg><span>Instagram</span></a>
+<a class="btn tt" href="https://tiktok.com/@sitivle" target="_blank" rel="noopener"><svg class="lg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.53.02C13.84 0 15.14.01 16.44 0c.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.08-.14 1.62.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg><span>TikTok</span></a>
+<a class="btn yt" href="https://youtube.com/@sitivle" target="_blank" rel="noopener"><svg class="lg" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 00-2.1-2.13C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.57A3 3 0 00.5 6.2 31.3 31.3 0 000 12a31.3 31.3 0 00.5 5.8 3 3 0 002.1 2.13C4.5 20.5 12 20.5 12 20.5s7.5 0 9.4-.57a3 3 0 002.1-2.13A31.3 31.3 0 0024 12a31.3 31.3 0 00-.5-5.8M9.5 15.6V8.4l6.3 3.6z"/></svg><span>YouTube</span></a>
+<div class="foot">© Sitivle</div>
+</div></body></html>
